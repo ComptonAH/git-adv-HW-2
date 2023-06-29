@@ -1,4 +1,4 @@
-N = input("enter something: ")
+N = input("Enter a three-digit number: ")
 
 if len(N) != 3:
     print("You must to enter a three-digit number")
