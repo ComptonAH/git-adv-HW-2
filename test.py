@@ -8,3 +8,5 @@ else:
     b = (N//10) % 10
     c = N % 10
     print(sum([a, b, c], 0))
+
+string = "You are the coolest person i've ever known!"
