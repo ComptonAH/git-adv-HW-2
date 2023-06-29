@@ -5,6 +5,6 @@ if len(N) != 3:
 else:
     N = int(N)
     a = N//100
-    print(sum([a], 0))
-
-string = "You are the coolest person i've ever known!"
+    b = (N//10) % 10
+    c = N % 10
+    print(sum([a, b, c], 0))
